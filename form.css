@@ -1,0 +1,110 @@
+body{
+	font-family: sans-serif;
+	background: #ffffff;
+}
+.kotak_login{
+    width: 300px;
+    background: gray;
+	margin: 50px auto;
+    padding: 70px 5px;
+    text-size-adjust: 50;
+    margin-top: 150px;
+}
+.bg{
+    min-height: 100%;
+    min-width: 720px;
+    width: 100%;
+    height: auto;
+    background: url(image/maxresdefault.jpg);
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.tulisan_login{
+    margin: -30px auto 20px;
+    text-align: center;    
+}
+.Trip{
+    width: 260px;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: -130px;
+    left: 50%;
+    right: 50%;
+}
+.Berangkat{
+    width: 12%;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -130px;
+    left: 50%;
+    right: 50%;
+}
+.berangkat1{
+    width: 12%;
+    position: absolute;
+    margin-top: 6px;
+    margin-left: -130px;
+    left: 50%;
+    right: 50% 
+}
+.pulang1{
+    width: 12%;
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 3px;
+    left: 50%;
+    right: 50%;
+}
+.Pulang{
+    width: 128px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 3px;
+    left: 50%;
+    right: 50%;
+    
+}
+.dropdown1{
+    width: 12%;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: -130px;
+    left: 50%;
+    right: 50%;
+}
+.dropdown2{
+    width: 130px;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 3px;
+    left: 50%;
+    right: 50%;
+}
+.submid{
+    width: 12%;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 3px;
+    left: 44%;
+    right: 45%;
+    background-color: darkcyan;
+}
+.purchase{
+    width: 12%;
+    
+    position: absolute;
+    margin-top: 110px;
+    margin-left: -170px;
+    left: 50%;
+    right: 50%;
+}
+.latest{
+    width: 12%;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 50px;
+    left: 50%;
+    right: 50%;
+}
