@@ -15,7 +15,7 @@ body{
     min-width: 720px;
     width: 100%;
     height: auto;
-    background: url(image/maxresdefault.jpg);
+    background: url(Image/maxresdefault.jpg);
     background-size: cover;
     position: fixed;
     top: 0;
