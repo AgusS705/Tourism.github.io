@@ -98,7 +98,7 @@ body{
 
 .wrapper {
   margin: 10px auto 0;
-  width: 100%;
+  width: 10%;
   max-width: 680px;
   padding: 20px;
   box-sizing: border-box;
@@ -127,7 +127,7 @@ p{
 .middle-form,
 .bottom-form {
   width: 100%;
-  min-height: 65px;
+  min-height: 0px;
   margin: 10px 0;
 }
 
@@ -188,6 +188,16 @@ p{
   font-size: 15px;
   color: #fff;
 }
+.submit1{
+  background-color: #34495e;
+  border: none;
+  border-radius: 5px;
+  position: center;
+  cursor: pointer;
+  padding: 6px 55px;
+  font-size: 15px;
+  color: #fff;
+}
 .submit:hover{
   background-color: #333;
 }
@@ -209,8 +219,8 @@ p{
   .wrapper {
     margin: 25px auto 0;
   }
-  .top-form .inner-form {
-    width: 100%;
+ .top-form .inner-form {
+    width: 80%;
     margin: 5px 0;
   }
   .top-form,
@@ -226,4 +236,39 @@ p{
      width: 100%;
      box-sizing: border-box;
   }
+}
+.gambar{
+  width: 20%;
+}
+.pilian{
+  text-align: center;
+  margin-left: 310px;
+  width: 47%;
+  height: 15%;
+  margin-top: 60px;
+}
+.menu1{
+  background-color: white;*/
+  text-align: center;
+  margin-left: 90px;
+  color: black; 
+  height: 30%;
+/*  display: flex;*/
+  /*flex-direction: row;*/
+}
+.wrapper {
+  margin: 10px auto 0;
+  width: 100%;
+  max-width: 680px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+.menu1 a{
+  color: black;
+  text-transform: uppercase;
+  /*text-decoration: none;*/
+  height: 15%;
+  width: 50%;
+  padding: 0 10px;
 }

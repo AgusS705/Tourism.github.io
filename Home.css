@@ -182,13 +182,13 @@ body{
 
 h1{
     color: #fff;
-    margin: 0px;
+    margin: 0 2px 0;
     padding: 10px 0px 40px;
     text-align: center;
     font-family: "montserrat",sans-serif;
 }
 .image-hover2{
-    display: flex;
+    display: inline-flex;
     justify-content: space-around;
     text-decoration: none;
 }
@@ -197,6 +197,7 @@ h1{
     width: 23%;
     border: 8px solid #fff;
     position: relative;
+    margin: 0 40px 0;
     overflow: hidden;
 }
 
@@ -207,7 +208,7 @@ h1{
 
 .image-hover2 .box img{
     max-width: 100%;
-    display: table;
+    display: block;
     margin: auto;
     transition: all .5s ease;
 }
@@ -282,13 +283,14 @@ h1{
 }
 
 /* Info Destinasi */
+
 .wrapper1{
     background: #fff;
     max-width: 960px;
     margin: 0 auto;
     padding: 20px;
     position: absolute;
-    top: 1000px;
+    top: 950px;
 }
 
 .wrapper1::after{
@@ -408,4 +410,10 @@ img{
     transition: 0.5s;
     transition-delay: 0.5s;
     transform: translateY(0);
+}
+
+/* Footer */
+
+.footer{
+    background-color: #000;
 }
